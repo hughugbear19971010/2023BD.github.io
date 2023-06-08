@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Edukator - Education Category Bootstrap Responsive Template | Home</title>
+    <title>Edukator - Education Category Bootstrap Responsive Template | Landing Single</title>
     <!-- google fonts -->
     <link href="//fonts.googleapis.com/css2?family=Jost:wght@300;400;600;700&display=swap" rel="stylesheet">
     <!-- Template CSS -->
@@ -19,7 +19,7 @@
             <nav class="navbar navbar-expand-lg navbar-dark stroke">
                 <h1>
                     <a class="navbar-brand" href="index.html">
-                        <i class="fas fa-heart"></i> 吳小肉!生日快樂!</a>
+                        <i class="fas fa-chalkboard-teacher"></i> Edukator</a>
                 </h1>
                 <!-- if logo is image enable this   
           <a class="navbar-brand" href="#index.html">
@@ -34,17 +34,54 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ml-lg-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">首頁 <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">好友的祝福</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="courses.html">男友的祝福</a>
-            </li>
-            
-          </ul>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#courses">Courses</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Sections <span class="fa fa-angle-down"></span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item scroll" href="#stats">Stats</a>
+                                <a class="dropdown-item scroll" href="#Newsblog">Blog Posts</a>
+                                <a class="dropdown-item scroll" href="#testimonials">Testimonials</a>
+                                <a class="dropdown-item scroll" href="#team">Team</a>
+                            </div>
+                        </li>
+                        <li class="nav-item mr-lg-1">
+                            <a class="nav-link scroll" href="#contact">Contact</a>
+                        </li>
+                        <!--/search-right-->
+                        <li class="header-search mr-lg-2 mt-lg-0 mt-4 position-relative">
+                            <div class="search-right">
+                                <a href="#search" class="btn btn-style search-btn" title="search"><span
+                                        class="fas fa-search mr-2" aria-hidden="true"></span> Search</a>
+                                <!-- search popup -->
+                                <div id="search" class="pop-overlay">
+                                    <div class="popup">
+
+                                        <form action="error.html" method="GET" class="search-box">
+                                            <input type="search" placeholder="Enter Keyword" name="search"
+                                                required="required" autofocus="">
+                                            <button type="submit" class="btn"><span class="fas fa-search"
+                                                    aria-hidden="true"></span></button>
+                                        </form>
+
+                                    </div>
+                                    <a class="close" href="#close">×</a>
+                                </div>
+                                <!-- /search popup -->
+                            </div>
+                        </li>
+                        <!--//search-right-->
+                    </ul>
                 </div>
 
 
@@ -72,7 +109,7 @@
     <section class="bannerw3l-hnyv">
         <div class="banner-layer">
             <video autoplay muted loop id="myVideo">
-                <source src="assets/images/love.mp4" type="video/mp4">
+                <source src="assets/images/line-edu.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
             </video>
             <div class="main-content-top">
@@ -82,9 +119,28 @@
                         <a class="logo" href="index.html">
                             <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
                         </a> -->
-                        <h4>May today be as special as you are!</h4>
-                        <h3>祝寶寶14歲生日快樂!</h3>
-                       
+                        <h4>Distance education with fun learning</h4>
+                        <h3>Discover best classes for the best <span class="inn-text">learning</span> </h3>
+                        <a href="about.html" class="btn btn-style transparant-btn mt-md-5 mt-4">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w3apply-admission">
+            <div class="apply-admission-wrap">
+                <div class="apply-admission-inner">
+                    <h4 class="title text-center">
+                        <span>Apply for admission</span>
+                    </h4>
+                    <div class="caption text-center mb-2">
+                        Make it more simple!
+                    </div>
+                    <div class="apply-form">
+                        <form action="#" class="" method="post">
+                            <input type="text" name="text" placeholder="Your Name" required="">
+                            <input type="email" name="email" placeholder="Your Email" required="">
+                            <button class="btn btn-style btn-primary">Apply Now</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -393,8 +449,8 @@
                         class="inn-text">Feedbacks</span></h3>
                 <!-- /grids -->
                 <div class="testimonial-width">
-                    <div class="owl-two row">
-                         <div class="col-lg-4 col-md-6 item mt-md-5 mt-4">
+                    <div id="owl-demo1" class="owl-two owl-carousel owl-theme">
+                        <div class="item">
                             <div class="testimonial-content">
                                 <div class="testimonial">
                                     <i class="fas fa-quote-right"></i>
@@ -413,7 +469,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 item mt-md-5 mt-4">
+                        <div class="item">
                             <div class="testimonial-content">
                                 <div class="testimonial">
                                     <i class="fas fa-quote-right"></i>
@@ -432,7 +488,83 @@
                                 </div>
                             </div>
                         </div>
-                      <div class="col-lg-4 col-md-6 item mt-md-5 mt-4">
+                        <div class="item">
+                            <div class="testimonial-content">
+                                <div class="testimonial">
+                                    <i class="fas fa-quote-right"></i>
+                                    <blockquote>
+                                        <q>Lorem ipsum dolor sit amet elit. Velit beatae
+                                            laudantium
+                                            voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus
+                                            tempora.</q>
+                                    </blockquote>
+                                    <div class="testi-des">
+                                        <div class="peopl align-self">
+                                            <h3>Roy Linderson</h3>
+                                            <p class="indentity">Example City</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-content">
+                                <div class="testimonial">
+                                    <i class="fas fa-quote-right"></i>
+                                    <blockquote>
+                                        <q>Lorem ipsum dolor sit amet elit. Velit beatae
+                                            laudantium
+                                            voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus
+                                            tempora.</q>
+                                    </blockquote>
+                                    <div class="testi-des">
+                                        <div class="peopl align-self">
+                                            <h3>Smith Johnson</h3>
+                                            <p class="indentity">Example City</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-content">
+                                <div class="testimonial">
+                                    <i class="fas fa-quote-right"></i>
+                                    <blockquote>
+                                        <q>Lorem ipsum dolor sit amet elit. Velit beatae
+                                            laudantium
+                                            voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus
+                                            tempora.</q>
+                                    </blockquote>
+                                    <div class="testi-des">
+                                        <div class="peopl align-self">
+                                            <h3>John wilson</h3>
+                                            <p class="indentity">Example City</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-content">
+                                <div class="testimonial">
+                                    <i class="fas fa-quote-right"></i>
+                                    <blockquote>
+                                        <q>Lorem ipsum dolor sit amet elit. Velit beatae
+                                            laudantium
+                                            voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus
+                                            tempora.</q>
+                                    </blockquote>
+                                    <div class="testi-des">
+                                        <div class="peopl align-self">
+                                            <h3>Julia sakura</h3>
+                                            <p class="indentity">Example City</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
                             <div class="testimonial-content">
                                 <div class="testimonial">
                                     <i class="fas fa-quote-right"></i>
@@ -459,6 +591,112 @@
         <!-- //grids -->
     </section>
     <!-- //testimonials -->
+    <!--/w3l-blog-->
+    <section class="w3l-blog">
+        <div class="blog py-5" id="Newsblog">
+            <div class="container py-lg-5 py-md-4 py-2">
+                <h5 class="title-subw3hny text-center mb-1">Our Article</h5>
+                <h3 class="title-w3l text-center mb-sm-5 mb-4">Stay Updated with Our<br>
+                    <span
+                    class="inn-text">News Feed.</span></h3>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 item">
+                        <div class="card">
+                            <div class="card-header p-0 position-relative">
+                                <a href="#blog-single" class="zoom d-block">
+                                    <img class="card-img-bottom d-block" src="assets/images/b7.jpg"
+                                        alt="Card image cap">
+                                </a>
+                            </div>
+                            <div class="card-body blog-details">
+             
+                                <a href="#blog-single" class="blog-desc">Our self improvement courses are more effective. </a>
+                                <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="author align-items-center">
+                                    <a href="#author" class="post-author">
+                                        <img src="assets/images/team1.jpg" alt="" class="img-fluid rounded-circle">
+                                    </a>
+                                    <ul class="blog-meta">
+                                        <li>
+                                            <span class="meta-value">by</span><a href="#author"> David Marks</a>
+                                        </li>
+                                    </ul>
+                                    <div class="date">
+                                        <p>20 Apr, 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 item mt-md-0 mt-5">
+                        <div class="card">
+                            <div class="card-header p-0 position-relative">
+                                <a href="#blog-single" class="zoom d-block">
+                                    <img class="card-img-bottom d-block" src="assets/images/b6.jpg"
+                                        alt="Card image cap">
+                                </a>
+                            </div>
+                            <div class="card-body blog-details">
+                                
+                                <a href="#blog-single" class="blog-desc">Learning to Write as a clean and Professional Author</a>
+                                    <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.</p>
+                                </div>
+                            <div class="card-footer">
+                                <div class="author align-items-center">
+                                    <a href="#author" class="post-author">
+                                        <img src="assets/images/team2.jpg" alt="" class="img-fluid rounded-circle">
+                                    </a>
+                                    <ul class="blog-meta">
+                                        <li>
+                                            <span class="meta-value">by</span><a href="#author"> Lynda Stone</a>
+                                        </li>
+                                    </ul>
+                                    <div class="date">
+                                        <p>20 Apr, 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 item mt-lg-0 mt-5">
+                        <div class="card">
+                            <div class="card-header p-0 position-relative">
+                                <a href="#blog-single" class="zoom d-block">
+                                    <img class="card-img-bottom d-block" src="assets/images/b8.jpg"
+                                        alt="Card image cap">
+                                </a>
+                            </div>
+                            <div class="card-body blog-details">
+                               
+                                <a href="#blog-single" class="blog-desc">Build your library for your career
+                                    and personal growth</a>
+                                    <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.</p>
+                                </div>
+                            <div class="card-footer">
+                                <div class="author align-items-center">
+                                    <a href="#author" class="post-author">
+                                        <img src="assets/images/team3.jpg" alt="" class="img-fluid rounded-circle">
+                                    </a>
+                                    <ul class="blog-meta">
+                                        <li>
+                                            <span class="meta-value">by</span><a href="#author"> David Nelson</a>
+                                        </li>
+                                    </ul>
+                                    <div class="date">
+                                        <p>20 Apr, 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//w3l-blog-->
     <!--/subscribe-->
     <section class="w3l-project" id="subscribe">
         <div class="container-fluid mx-lg-0">
@@ -483,6 +721,187 @@
         </div>
     </section>
     <!--//subscribe-->
+      <!--/team-sec-->
+  <section class="w3l-team-main team py-5" id="team">
+    <div class="container py-lg-5">
+      <h5 class="title-subw3hny mb-1 text-center">Our Team</h5>
+      <h3 class="title-w3l text-center">Meet Our <span class="inn-text">Teachers</span></h3>
+      <div class="row team-row">
+        <div class="col-lg-3 col-6 team-wrap mt-5">
+          <div class="team-member text-center">
+            <div class="team-img">
+              <img src="assets/images/team1.jpg" alt="" class="radius-image">
+              <div class="overlay-team">
+                <div class="team-details text-center">
+                  <div class="socials mt-20">
+                    <a href="#url">
+                      <span class="fab fa-facebook-f"></span>
+                    </a>
+                    <a href="#url">
+                      <span class="fab fa-twitter"></span>
+                    </a>
+                    <a href="#url">
+                      <span class="fab fa-linkedin-in"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="#url" class="team-title">Lawrence Petrie</a>
+            <p>Director</p>
+          </div>
+        </div>
+        <!-- end team member -->
+        <div class="col-lg-3 col-6 team-wrap mt-5">
+          <div class="team-member text-center">
+            <div class="team-img">
+              <img src="assets/images/team2.jpg" alt="" class="radius-image">
+              <div class="overlay-team">
+                <div class="team-details text-center">
+                  <div class="socials mt-20">
+                    <a href="#url">
+                      <span class="fab fa-facebook-f"></span>
+                    </a>
+                    <a href="#url">
+                      <span class="fab fa-twitter"></span>
+                    </a>
+                    <a href="#url">
+                      <span class="fab fa-linkedin-in"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="#url" class="team-title">Jack Peters</a>
+            <p>Managing Director</p>
+          </div>
+        </div>
+        <!-- end team member -->
+        <div class="col-lg-3 col-6 team-wrap mt-5">
+          <div class="team-member text-center">
+            <div class="team-img">
+              <img src="assets/images/team3.jpg" alt="" class="radius-image">
+              <div class="overlay-team">
+                <div class="team-details text-center">
+                  <div class="socials mt-20">
+                    <a href="#url">
+                      <span class="fab fa-facebook-f"></span>
+                    </a>
+                    <a href="#url">
+                      <span class="fab fa-twitter"></span>
+                    </a>
+                    <a href="#url">
+                      <span class="fab fa-linkedin-in"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="#url" class="team-title">Anna Phillips</a>
+            <p>Teacher</p>
+          </div>
+        </div>
+        <!-- end team member -->
+        <div class="col-lg-3 col-6 team-wrap mt-5">
+          <div class="team-member last text-center">
+            <div class="team-img">
+              <img src="assets/images/team4.jpg" alt="" class="radius-image">
+              <div class="overlay-team">
+                <div class="team-details text-center">
+                  <div class="socials mt-20">
+                    <a href="#url">
+                      <span class="fab fa-facebook-f"></span>
+                    </a>
+                    <a href="#url">
+                      <span class="fab fa-twitter"></span>
+                    </a>
+                    <a href="#url">
+                      <span class="fab fa-linkedin-in"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="#url" class="team-title">Roland Walker</a>
+            <p>Teacher</p>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!--//team-sec-->
+     <!-- contacts-5-grid -->
+<div class="w3l-contact-10 py-5" id="contact">
+    <div class="form-41-mian pt-lg-4 pt-md-3 pb-lg-4">
+        <div class="container">
+            <div class="heading text-center mx-auto">
+              <h5 class="title-subw3hny text-center">Contact our team</h5>
+              <h3 class="title-w3l">Got any <span class="inn-text">Questions? </span></h3>
+            </div>
+
+            <div class="contacts-5-grid-main mt-5">
+                <div class="contacts-5-grid">
+                    <div class="map-content-5">
+                        <div class="d-grid grid-col-2">
+                            <div class="contact-type">
+                                <div class="address-grid">
+                                    <h6><span class="fas fa-map-marked-alt"></span> Address</h6>
+                                    <p>#302, 5th Floor, VHLY-2247 ek, Settlers Lane, New York.</p>
+                                    
+                                </div>
+                                <div class="address-grid">
+                                    <h6><span class="fas fa-envelope-open-text"></span> Email</h6>
+                                    <a href="/cdn-cgi/l/email-protection#f79a969e9b989992b7928f969a879b92d994989a" class="link1"><span class="__cf_email__" data-cfemail="1c717d75707372795c79647d716c7079327f7371">[email&#160;protected]</span></a>
+                                    <a href="/cdn-cgi/l/email-protection#f9949890958d8e96b99c81989489959cd79a9694" class="link1"><span class="__cf_email__" data-cfemail="ef828e86839b9880af8a978e829f838ac18c8082">[email&#160;protected]</span></a>
+                                        
+                                </div>
+                                <div class="address-grid">
+                                    <h6><span class="fas fa-phone-alt"></span> Phone</h6>
+                                    <a href="tel:+12 324-016-695" class="link1">+12 324-016-695</a>
+                                    <a href="tel:+44 224-058-545" class="link1">+44 224-058-545</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-inner-cont mt-5">
+                <form action="#" method="post" class="signin-form">
+                    <div class="form-grids">
+                        <div class="form-input">
+                            <input type="text" name="w3lName" id="w3lName" placeholder="Enter your name *"
+                                required="" />
+                        </div>
+                        <div class="form-input">
+                            <input type="text" name="w3lSubject" id="w3lSubject" placeholder="Enter subject "
+                                required />
+                        </div>
+                        <div class="form-input">
+                            <input type="email" name="w3lSender" id="w3lSender" placeholder="Enter your email *"
+                                required />
+                        </div>
+                        <div class="form-input">
+                            <input type="text" name="w3lPhone" id="w3lPhone" placeholder="Enter your Phone Number *"
+                                required />
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <textarea name="w3lMessage" id="w3lMessage" placeholder="Type your query here"
+                            required=""></textarea>
+                    </div>
+                    <div class="text-right">
+                        <button class="btn btn-style btn-primary">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- //contacts-5-grid -->
+</div>
+
+<div class="contacts-sub-5">
+    <iframe src="https://www.amap.com/" sandbox="" style="border:0" allowfullscreen></iframe>
+</div>
     <!--/footer-->
     <footer class="w3l-footer-22 position-relative">
         <div class="footer-sub py-5">
@@ -566,7 +985,7 @@
     <button onclick="topFunction()" id="movetop" title="Go to top">
         <span class="fas fa-level-up-alt" aria-hidden="true"></span>
     </button>
-    <script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function () {
             scrollFunction()
@@ -587,9 +1006,46 @@
         }
     </script>
     <!-- //move top -->
+
     <!-- Template JavaScript -->
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/theme-change.js"></script>
+    <!-- stats number counter-->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.countup.js"></script>
+    <script>
+        $('.counter').countUp();
+    </script>
+    <!-- //stats number counter -->
+    <!-- script for tesimonials carousel slider -->
+    <script src="assets/js/owl.carousel.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#owl-demo1").owlCarousel({
+                loop: true,
+                margin: 20,
+                nav: false,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    768: {
+                        items: 2,
+                        nav: false
+                    },
+                    1000: {
+                        items: 3,
+                        nav: false,
+                        loop: false
+                    }
+                }
+            })
+        })
+    </script>
+    <!-- //script for tesimonials carousel slider -->
     <!-- disable body scroll which navbar is in active -->
     <script>
         $(function () {
@@ -629,6 +1085,7 @@
     </script>
     <!--//MENU-JS-->
     <script src="assets/js/bootstrap.min.js"></script>
+
 
 </body>
 
