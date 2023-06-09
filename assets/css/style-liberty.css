@@ -19148,7 +19148,7 @@ ul.rating-star li span.fa {
 
 /*-- gallery ends --*/
 .w3l-testimonials {
-  background: url(../images/banner1.jpg) no-repeat center;
+  background: url(../images/bg.jpg) no-repeat top;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
